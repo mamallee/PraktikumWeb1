@@ -16,11 +16,25 @@
     #teks-kuning{
         color: yellow;
     }
+
+    div p{
+        color: red;
+    }
+    div > div > p{
+        font-weight: bold;
+    }
     </style>
 </head>
 <body>
     <h1>Pemprograman web 1</h1>
     <p class="teks-merah">Praktik Pemprograman Web 1 sesi 2 akan membahas tentang penggunaan CSS.</p>
     <p id="teks-kuning">CSS atau Cascading Style Sheet adalah sebuah bahasa yang digunakan untuk mengatur tampilan suatu halaman web</p>
+
+    <div>
+        <p>Ini adalah paragraf pertama</p>
+        <div>
+            <p>Ini adalah paragraf</p>
+        </div>
+    </div>
 </body>
 </html>
